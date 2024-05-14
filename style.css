@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Arial";
+  background-color: #aaa;
+}
+
+.container {
+  font-size: 12rem;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+}
+
+.item {
+  background-color: #aaa;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid black;
+}
+
+.item.middle::after {
+  content: "o";
+  position: absolute;
+}
+.item:nth-child(6n + 1) {
+  border-left: none;
+}

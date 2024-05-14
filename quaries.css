@@ -1,0 +1,62 @@
+/* ________________________________________________*/
+/* BELOW 1344px (Smaller desktops) */
+
+@media (max-width: 84em) {
+}
+
+/* ________________________________________________*/
+/* BELOW 1200px (Landscape tablers) */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+}
+
+/* ________________________________________________*/
+/* BELOW 944px (Tablets) */
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 35%;
+  }
+}
+
+/* ________________________________________________*/
+/* BELOW 704px (Tablets) */
+
+@media (max-width: 44em) {
+}
+
+/* ________________________________________________*/
+/* BELOW 704px (Phones) */
+
+@media (max-width: 34em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 30%;
+    height: 95vh;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 25%;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 20%;
+  }
+}
+@media (max-width: 20em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 15%;
+  }
+}
