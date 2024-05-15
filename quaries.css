@@ -58,9 +58,15 @@
     font-size: 50%;
   }
 }
-@media (max-height: 46.25em) {
+@media (max-height: 46.25em) and (max-width: 78.125em) {
   html {
     font-size: 50%;
+  }
+  .item {
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
 @media (max-height: 39.375em) {
@@ -71,6 +77,22 @@
 @media (max-height: 35.625em) {
   html {
     font-size: 35%;
+  }
+}
+@media (max-height: 28.75em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-height: 23.125em) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-height: 19.375em) {
+  html {
+    font-size: 20%;
   }
 }
 /* 2560px = 160em
