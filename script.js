@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let countB = 0;
   let countC = 0;
 
+  let colDiv = document.createElement("div");
+  colDiv.classList.add("col");
+  container.appendChild(colDiv);
+
   for (let i = 0; i < 30; i++) {
     const div = document.createElement("div");
     div.classList.add("item");
@@ -18,12 +22,19 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (countC < 10) {
       content = "|";
       countC++;
-      div.classList.add("middle"); // Dodanie klasy "middle"
+      div.classList.add("middle");
     } else {
-      i--; // Try again for this iteration
+      i--; // Retry for this iteration
       continue;
     }
     div.textContent = content;
-    container.appendChild(div);
+    colDiv.appendChild(div);
+
+    // Every 6 items, create a new "col" div
+    if ((i + 1) % 6 === 0 && i < 29) {
+      colDiv = document.createElement("div");
+      colDiv.classList.add("col");
+      container.appendChild(colDiv);
+    }
   }
 });
