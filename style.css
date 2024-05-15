@@ -14,12 +14,12 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Arial";
-  background-color: #333;
+  background-color: #121212;
 }
 
 .container {
   font-size: 12rem;
-  color: #ddd;
+  color: #e1e1e1;
   width: 100vw;
   height: 100vh;
   justify-content: center;
@@ -28,22 +28,26 @@ body {
   grid-template-columns: repeat(6, auto);
   justify-content: center;
   align-content: center;
-  gap: 2rem;
+  row-gap: 5rem;
+  column-gap: 2rem;
 }
 
 .item {
-  background-color: #333;
+  background-color: #1e1e1e;
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 2px solid #ddd;
+  /* border-left: 2px solid #ddd; */
+
+  padding: 1.2rem;
+  border-radius: 5px;
 }
 
 .item.middle::after {
   content: "o";
   position: absolute;
 }
-.item:nth-child(6n + 1) {
+/* .item:nth-child(6n + 1) {
   border-left: none;
-}
+} */

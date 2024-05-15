@@ -2,9 +2,6 @@
 /* BELOW 1344px (Smaller desktops) */
 
 @media (max-width: 84em) {
-  html {
-    font-size: 50%;
-  }
 }
 
 /* ________________________________________________*/
@@ -12,7 +9,8 @@
 
 @media (max-width: 75em) {
   html {
-    font-size: 50%;
+    /* 9px / 16px */
+    font-size: 56.25%;
   }
 }
 
@@ -21,7 +19,8 @@
 
 @media (max-width: 59em) {
   html {
-    font-size: 50%;
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 35%;
   }
 }
 
@@ -29,9 +28,6 @@
 /* BELOW 704px (Tablets) */
 
 @media (max-width: 44em) {
-  html {
-    font-size: 40%;
-  }
 }
 
 /* ________________________________________________*/
@@ -39,23 +35,28 @@
 
 @media (max-width: 34em) {
   html {
-    font-size: 35%;
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 30%;
+    height: 95vh;
   }
 }
 
 @media (max-width: 30em) {
   html {
-    font-size: 30%;
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 25%;
   }
 }
 
 @media (max-width: 25em) {
   html {
-    font-size: 25%;
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 20%;
   }
 }
 @media (max-width: 20em) {
   html {
-    font-size: 18%;
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 15%;
   }
 }
