@@ -1,104 +1,30 @@
-/* ________________________________________________*/
-/* BELOW 1344px (Smaller desktops) */
-
-/* 1200px */
-@media (max-width: 84.375em) {
-  html {
-    font-size: 50%;
-  }
-  .container {
-    row-gap: 1rem;
-  }
-}
-
-@media (max-width: 75em) {
-  html {
-    font-size: 45%;
-  }
-}
-@media (max-width: 65.625em) {
+/* 700px */
+@media (max-width: 43.75em) {
   html {
     font-size: 40%;
   }
 }
-@media (max-width: 60em) {
-  html {
-    font-size: 35%;
-  }
-}
-@media (max-width: 51.875em) {
-  html {
-    font-size: 30%;
-  }
-  .item {
-    padding: 0.5rem;
-    padding-bottom: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-}
-@media (max-width: 35.625em) {
-  html {
-    font-size: 25%;
-  }
-}
-@media (max-width: 29.375em) {
-  html {
-    font-size: 20%;
-  }
-}
-@media (max-width: 23.75em) {
-  html {
-    font-size: 15%;
-  }
-}
-
-@media (max-height: 46.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (max-height: 46.25em) and (max-width: 78.125em) {
-  html {
-    font-size: 50%;
-  }
-  .item {
-    padding: 0.5rem;
-    padding-bottom: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-}
-@media (max-height: 39.375em) {
-  html {
-    font-size: 45%;
-  }
-}
-@media (max-height: 35.625em) {
-  html {
-    font-size: 35%;
-  }
-}
-@media (max-height: 28.75em) {
+/* 450px */
+@media (max-width: 28.125em) {
   html {
     font-size: 30%;
   }
 }
-
-@media (max-height: 23.125em) {
+/* 450px */
+@media (max-height: 45em) {
+  html {
+    font-size: 40%;
+  }
+}
+/* 520px */
+@media (max-height: 32.5em) {
+  html {
+    font-size: 30%;
+  }
+}
+/* 400px */
+@media (max-height: 25em) {
   html {
     font-size: 25%;
   }
 }
-@media (max-height: 19.375em) {
-  html {
-    font-size: 20%;
-  }
-}
-/* 2560px = 160em
-1440px = 90em
-1024px = 64em
-768px = 48em
-425px ≈ 26.56em
-375px ≈ 23.44em
-320px = 20em */
